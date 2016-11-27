@@ -17,6 +17,8 @@
 !/log/.keep
 !/tmp/.keep
 
+#below is from Github
+
 # Ignore Byebug command history file.
 .byebug_history
 *.rbc
