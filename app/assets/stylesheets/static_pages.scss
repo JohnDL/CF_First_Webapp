@@ -1,3 +1,87 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  padding-top: 75px;
+}
+/*ensures nav bar does not cover page content*/
+.navbar-default {
+	background-color: #1c1c1c;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-color: inherit;
+}
+
+.navbar-default .navbar-brand {
+	color: #ffc423;
+} /*sets color for brand*/
+
+/*.navbar-default .navbar-brand>a:hover {
+	color: #ffc423;
+}*/
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #ffc423;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+	color: #ffc423;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	color: #fff;
+	background-color: #1c1c1c;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+
+	background-color: transparent;
+	} /*Removes focus box*/
+
+	.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #ffc423;
+} /*Sets hover color, and makes color constant for brand*/
+
+h1, h2 {
+	text-transform: uppercase;
+	font-family: Open Sans, Arial;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 15px;
+	}
+
+	.landing-image {
+		background-image: n
+	}
+
+	/*footer*/
+	.footer {
+		background-color: #1c1c1c;
+		text-align: center;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+.footer .container {
+	width:100%;
+
+}
+
+	/*Fonts*/
+	.navbar-default {
+		font-family: Lato, Futura, Arial;
+		text-transform: uppercase;
+	}
+
+	.text-muted {
+		color: #ffc423;
+		font-family: Lato, “Roboto”, Futura, Arial;
+	} /*footer fonts*/
+
+
