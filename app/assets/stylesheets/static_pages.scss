@@ -49,15 +49,11 @@ body {
 } /*Sets hover color, and makes color constant for brand*/
 
 h1, h2 {
-	text-transform: uppercase;
-	font-family: Open Sans, Arial;
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 15px;
-	}
-
-	.landing-image {
-		background-image: n
+		text-transform: uppercase;
+		font-family: Open Sans, Arial;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 15px;
 	}
 
 	/*footer*/
@@ -68,10 +64,14 @@ h1, h2 {
 		padding-bottom: 15px;
 	}
 
-.footer .container {
-	width:100%;
-
+	.footer .container {
+		width:100%;
 }
+
+	.container-fluid, #landingimage {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 
 	/*Fonts*/
 	.navbar-default {
