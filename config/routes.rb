@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'static_pages/register'
+
+  get 'static_pages/login'
+
+  get 'static_pages/shop'
+
   get 'static_pages/about'
 
   get 'static_pages/contact'
