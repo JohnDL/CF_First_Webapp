@@ -74,24 +74,28 @@ h2 {
 }
 
 	/*footer*/
+
 .footer {
 	background-color: #1c1c1c;
 	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	margin: 0px;
+
 }
 
 .footer .container {
 	width:100%;
+
 }
 
 #indexpage {
 	text-align: center;
 }
 
-#shoppage {
+/*#shoppage {
 	text-align: center;
-}
+}*/
 
 #aboutpage {
 	text-align: center;
@@ -109,7 +113,7 @@ h2 {
 	text-align: center;
 }
 
-.pagebody, #landingpage {
+.pagebody, #landingpage{
 	margin: 0px;
 } /*takes out scaffolding aut 33px margin*/
 

@@ -1,44 +1,42 @@
 <p id="notice"><%= notice %></p>
 
-<div class="header" id="shoppage">
+<div class="header" id="productheader">
   <h1> Featured Products </h1>
 </div> <!-- end header -->
 
 <div class="container" id="shoppage">
-  <div class=“row”>
-  <div class=“col-sm-4 col xs-12”>
-    <%= image_tag("boot_sportiva2.jpg", class: "img-responsive my-image") %>
-    <div class="product_description">
+  <div class='row'>
+    <div class="col-xs-12 col-sm-4">
+    <%= image_tag("boot_red_lowa.jpg", class: "img-responsive my-image") %>
+      <div class="product_description">
       <h2> La Sportiva Alpine 4000!</h2>
-    </div> <!-- end product_description -->
-    </div> <!-- end col-sm-4 col xs-12 -->
+      <p> A versatile boot for all weather conditions. </p>
+      <strong>$ 500</strong>
+      </div> <!-- end product description -->
+    </div> <!-- end col-xs-12 col-sm-4 -->
 
-  <div class=“col-sm-4 col xs-12”>
+
+  <div class="col-xs-12 col-sm-4">
     <%= image_tag("boot_red_lowa.jpg", class: "img-responsive my-image") %>
     <div class="product_description">
       <h2> Lowa Tibet Series!</h2>
+      <p> Perfect for high alpine approaches. </p>
+      <strong>$ 560</strong>
     </div><!-- end product_description -->
     </div><!-- end col-sm-4 col xs-12 -->
 
-  <div class=“col-sm-4 col xs-12”>
+  <div class="col-xs-12 col-sm-4">
     <%= image_tag("boot_climb.jpg", class: "img-responsive my-image") %>
     <div class="product_description">
       <h2> Tenaya Boulder Special!</h2>
+      <p> Made for speed climbing. </p>
+      <strong>$ 120</strong>
     </div><!-- end product_description -->
     </div><!-- end col-sm-4 col xs-12 -->
 
 </div> <!-- end row -->
 </div> <!-- end shoppage container -->
 
-<table>
-  <thead>
-    <tr>
-      <th>Test</th>
-      <th>Tenaya Boulder Special!</th>
-      <th><%= image_tag("boot_climb.jpg", class: "img-responsive my-image") %></th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
 
   <tbody>
     <% @products.each do |product| %>

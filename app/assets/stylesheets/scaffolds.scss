@@ -7,6 +7,10 @@ body {
   margin: 33px;
 }
 
+body, .footer {
+  margin: 0px;
+}
+
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
@@ -87,3 +91,5 @@ div {
 label {
   display: block;
 }
+
+
