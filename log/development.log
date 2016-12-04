@@ -6607,3 +6607,20 @@ Processing by ProductsController#index as HTML
 Completed 200 OK in 33ms (Views: 30.3ms | ActiveRecord: 0.1ms)
 
 
+Started GET "/products" for ::1 at 2016-12-04 12:12:21 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (405.3ms)
+Completed 200 OK in 495ms (Views: 480.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for ::1 at 2016-12-04 12:12:39 -0700
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 62ms (Views: 59.9ms | ActiveRecord: 0.1ms)
+
+
