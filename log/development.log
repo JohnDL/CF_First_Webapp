@@ -7793,3 +7793,19 @@ Completed 200 OK in 463ms (Views: 447.9ms | ActiveRecord: 0.6ms)
   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
   [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/static_pages/index" for ::1 at 2016-12-05 17:21:04 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (219.7ms)
+Completed 200 OK in 316ms (Views: 300.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2016-12-05 17:21:06 -0700
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 44ms (Views: 39.2ms | ActiveRecord: 0.8ms)
+
+
