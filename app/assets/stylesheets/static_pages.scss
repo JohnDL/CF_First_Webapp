@@ -4,8 +4,15 @@
 
 body {
   padding-top: 75px;
+  padding-bottom: 60px;
 }
 /*ensures nav bar does not cover page content*/
+/*ensures footer does not cover page content*/
+
+html, body {
+  height: auto;
+}
+
 .navbar-default {
 	background-color: #1c1c1c;
 	padding-top: 15px;
@@ -75,16 +82,17 @@ h2 {
 
 	/*footer*/
 
-.footer {
+#footer {
 	background-color: #1c1c1c;
 	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	margin: 0px;
+	position: bottom;
 
 }
 
-.footer .container {
+#footer .container-fluid {
 	width:100%;
 
 }
