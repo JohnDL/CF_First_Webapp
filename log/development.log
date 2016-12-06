@@ -10487,3 +10487,10 @@ Processing by StaticPagesController#index as HTML
 Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/static_pages/index" for ::1 at 2016-12-06 14:11:43 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 45ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
