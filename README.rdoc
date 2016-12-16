@@ -23,4 +23,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* change for purpose of testing git 12/16/2016
