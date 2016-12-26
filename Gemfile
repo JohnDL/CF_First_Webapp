@@ -54,3 +54,4 @@ group :production do
 	#Ensures production-server environment can utilize PostSQL
   gem 'pg'
 end
+ruby "2.3.0"
