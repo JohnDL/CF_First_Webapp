@@ -1,7 +1,10 @@
 <p id="notice"><%= notice %></p>
 <div class="header" id="productheader">
-<h2>Featured Product:</h2>
-<%= @featured_product.name %>
+<h1>Featured product of the month:</h1>
+<%= image_tag(@featured_product.image_url, class: "img-responsive", id: "landing_img") %>
+<p> <%= @featured_product.name %> </p>
+<p> <%= @featured_product.description %> </p>
+<p> <%= @featured_product.price %> Euro </p>
 </div> <!-- end header -->
 
 

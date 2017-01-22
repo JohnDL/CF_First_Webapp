@@ -95,9 +95,10 @@ h2 {
 
 	/*Landing page*/
 
- .container-fluid, #landing_image {
+ .container-fluid, #landing_img {
 	padding-left: 0px;
 	padding-right: 0px;
+	display: inline-block;
 }
 
   /*Contact Pate*/
