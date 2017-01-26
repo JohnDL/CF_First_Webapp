@@ -95,10 +95,33 @@ h2 {
 
 	/*Landing page*/
 
- .container-fluid, #landing_img {
-	padding-left: 0px;
-	padding-right: 0px;
-	display: inline-block;
+// .container-fluid, #landing_img {
+// 	padding-left: 0px;
+// 	padding-right: 0px;
+// 	display: inline-block;
+// }
+
+.carousel {
+	margin: auto;
+	position: relative;
+}
+
+.carousel-inner > .item > img {
+       width:1024px;
+       height:768px;
+     }
+
+.carousel-caption h1 {
+	padding-bottom: 18%;
+	font-family: "Playfair Display",serif;
+	text-shadow: none;
+	font-size: 8em;
+	color: #fff;
+}
+
+.carousel-caption span {
+	display: block;
+	font-size: .3em;
 }
 
   /*Contact Pate*/
