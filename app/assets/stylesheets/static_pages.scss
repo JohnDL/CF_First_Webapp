@@ -74,7 +74,7 @@ h2 {
 	color: #1c1c1c;
 }
 
-/*Product page*/
+/*Product Page*/
 
 #productheader {
 	padding-left: 15px;
@@ -93,8 +93,7 @@ h2 {
 	margin-bottom: 10px;
 }
 
-	/*Garmisch Gear page*/
-
+	/*Garmisch Gear Page*/
 .container-fluid, #landing_img {
 	padding-left: 0px;
 	padding-right: 0px;
@@ -102,37 +101,60 @@ h2 {
 }
 
 /*Landing Page*/
-
 .carousel {
 	margin: auto;
 	position: relative;
 }
 
-.carousel-inner > .item > img {
+/*.carousel-inner > .item > img {
        width:1024px;
        height:768px;
-     }
+     }*/
 
-.carousel-caption h1 {
-	padding-bottom: 18%;
-	font-family: "Playfair Display",serif;
+.carousel-caption h2 {
+	padding-bottom: 15%;
+	font-family: "Display", serif;
 	text-shadow: none;
-	font-size: 8em;
+	font-size: 4em;
 	color: #fff;
+	line-height: 1em;
+}
+
+@media (max-width:767px) {
+	.carousel-caption h2 {
+		font-size: 2em;
+	}
+}
+
+@media (max-width:481px) {
+	.carousel-caption h2 {
+		font-size: 1.5em;
+	}
+}
+
+@media (max-width:320px) {
+	.carousel-caption h2 {
+		font-size: 1em;
+	}
+}
+
+.header-landing-page {
+	padding: .5em; 
+	background-color: rgba(0, 0, 0, 0.4);
+	display: block;
 }
 
 .carousel-caption span {
 	display: block;
-	font-size: .3em;
+	font-size: .5em;
 }
 
-  /*Contact Pate*/
+  /*Contact Page*/
   #contactheader, ul {
   	padding-left: 0;
-  }
+}
 
 	/*footer*/
-
 #footer {
 	background-color: #1c1c1c;
 	text-align: center;
@@ -140,12 +162,10 @@ h2 {
 	padding-bottom: 15px;
 	margin: 0px;
 	position: bottom;
-
 }
 
 #footer .container-fluid {
 	width:100%;
-
 }
 
 #indexpage {
@@ -172,7 +192,7 @@ h2 {
 	text-align: center;
 }
 
-.pagebody, #landingpage{
+.pagebody, #landingpage {
 	margin: 0px;
 } /*takes out scaffolding aut 33px margin*/
 
