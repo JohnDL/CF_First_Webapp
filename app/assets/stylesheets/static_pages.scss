@@ -93,7 +93,7 @@ h2 {
 	margin-bottom: 10px;
 }
 
-	/*Garmisch Gear Page*/
+/*Garmisch Gear Page*/
 .container-fluid, #landing_img {
 	padding-left: 0px;
 	padding-right: 0px;
@@ -105,6 +105,10 @@ h2 {
 	margin: auto;
 	position: relative;
 }
+
+.pagebody, #landingpage {
+	margin: 0px;
+} /*takes out scaffolding aut 33px margin*/
 
 /*.carousel-inner > .item > img {
        width:1024px;
@@ -149,12 +153,12 @@ h2 {
 	font-size: .5em;
 }
 
-  /*Contact Page*/
-  #contactheader, ul {
+ /*Contact Page*/
+ #contactheader, ul {
   	padding-left: 0;
 }
 
-	/*footer*/
+/*Footer*/
 #footer {
 	background-color: #1c1c1c;
 	text-align: center;
@@ -176,27 +180,39 @@ h2 {
 	text-align: center;
 }*/
 
+/*About Page*/
 #aboutpage {
 	text-align: center;
 }
 
+#aboutpage, h1 {
+	padding: 0px;
+}
+
+#aboutpage, h2 {
+	font-size: 24px;
+}
+
+#aboutpage .img-responsive {
+	display: inline-block;
+}
+
+/*Contact Page*/
 #contactform {
 	padding-left: 15%;
 }
 
+/*Register Page*/
 #registerpage {
 	text-align: center;
 }
 
+/*Login Page*/
 #loginpage {
 	text-align: center;
 }
 
-.pagebody, #landingpage {
-	margin: 0px;
-} /*takes out scaffolding aut 33px margin*/
-
-	/*Fonts*/
+/*Fonts*/
 .navbar-inverse {
 	font-family: Lato, Futura, Arial;
 	text-transform: uppercase;
