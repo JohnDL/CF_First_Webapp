@@ -54,6 +54,26 @@ background-color: transparent;
   color: #ffc423;
 } /*Sets hover color, and makes color constant for brand*/
 
+// .nav-search {margin-top:12px;}
+
+.minibutton-search {
+	float: right;
+}
+
+.form-group {
+	margin-bottom: 0px;
+	margin-top: .5em;
+	display: inline-block;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 28px;
+}
+
+.form-control {
+	font-size: 13px;
+	margin-top: .6em;
+}
+
+
 h1 {
 	text-transform: uppercase;
 	font-family: "Roboto", Open Sans, Arial;
@@ -62,6 +82,11 @@ h1 {
 	line-height: 38px;
 	letter-spacing: 0.1em;
 	color: #1c1c1c;
+	// text-align: center;
+}
+
+#header {
+	text-align: center;
 }
 
 h2 {
@@ -154,8 +179,8 @@ h2 {
 }
 
  /*Contact Page*/
- #contactheader, ul {
-  	padding-left: 0;
+#contactheader, ul {
+  padding-left: 0;
 }
 
 /*Footer*/
