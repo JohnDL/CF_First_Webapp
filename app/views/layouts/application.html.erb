@@ -45,8 +45,14 @@
             <li class="active"><%= link_to 'Log in', static_pages_login_path %></li>
             <li class="active"><%= link_to 'Register', static_pages_register_path %></li>
             <li class="active"><%= link_to 'Contact Us', static_pages_contact_path %></li>
-
+            <li class="nav-search">
+              <%= form_tag("/products", method: "get") do %>
+              <%= text_field_tag(:q) %>
+              <%= submit_tag("Go!", class: 'button-s') %>
+              <% end %>
+            </li>
           </ul>
+
         </div><!-- /.nav-collapse -->
       </div>
     </nav>

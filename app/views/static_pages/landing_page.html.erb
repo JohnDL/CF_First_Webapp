@@ -1,5 +1,5 @@
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  
+  <%= params[:example_key].to_i * 10 %>
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <% @products.each_with_index do |product, index| %>
