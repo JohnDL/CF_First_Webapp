@@ -191,8 +191,67 @@ h2 {
 }
 
  /*Contact Page*/
-#contactheader, ul {
-  padding-left: 0;
+.contact-section {
+	text-align: center;
+}
+
+ .content-container h1 {
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+.col-md-4 {
+	padding-left: 70px;
+}
+
+.col-md-4 h3 {
+	font-family:"Roboto", Open Sans, Arial;
+}
+
+.col-md-8 h3 {
+	font-family:"Roboto", Open Sans, Arial;
+}
+
+.col-md-8 {
+	padding-left: 50px;
+}
+
+.col-md-8 .form-group {
+	font-family:"Roboto", Open Sans, Arial;
+	font-size: 13px;
+}
+
+.form-control-message {
+	font-size: 10px;
+	min-width: 400px;
+	max-width: 400px;
+}
+
+@media  (max-width: 767px) {
+	.form-control-message {
+		min-width: 300px;
+		max-width: 300px;
+	}
+}
+
+@media  (max-width: 400px) {
+	.form-control-message {
+		min-width: 160px;
+		max-width: 160px;
+	}
+}
+
+@media (max-width: 990px) {
+	.header h1 {
+		padding-top: 40px;
+	}
+}
+/*Form submit response page*/
+
+.panel-body p {
+	text-align: center;
+	font-family:"Roboto", Open Sans, Arial;
+	font-size: 16px;
 }
 
 /*Footer*/
