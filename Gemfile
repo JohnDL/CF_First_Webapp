@@ -54,4 +54,7 @@ group :production do
 	#Ensures production-server environment can utilize PostSQL
   gem 'pg'
 end
+#Provides authentification functions for Rails
+gem 'devise'
+
 ruby "2.3.0"

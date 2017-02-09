@@ -43,13 +43,19 @@
             <li class="active"><%= link_to 'Shop', products_path %></li>
             <li class="active"><%= link_to 'About', static_pages_about_path %></li>
             <li class="active"><%= link_to 'Contact', static_pages_contact_path %></li>
-            <li class="active"><%= link_to 'Log in', static_pages_login_path %></li>
             <li class="nav-search">
               <%= form_tag("/products", method: "get", class: "form-inline") do %>
               <%= text_field_tag(:q, nil, class: "form-control", placeholder: "Enter search keyword") %>
               <%= submit_tag("SEARCH", class: 'minibutton-search') %>
               <% end %>
             </li>
+            <li>
+              <% if user_signed_in? %>
+              <%= link_to('Logout', destroy_user_session_path, :method => :delete)%>
+              <% else %>
+              <%= link_to('Login', new_user_session_path) %>
+              <% end %>
+            </li> 
           </ul>
 
         </div><!-- /.nav-collapse -->
@@ -57,6 +63,12 @@
     </nav>
     </div> <!-- end container navbar -->
 
+<% if notice %>
+        <p id="notice" class="alert alert-success centre-text"><%= notice %></p>
+    <% end %>
+    <% if alert %>
+        <p id="alert" class="alert alert-warning centre-text"><%= alert %></p>
+<% end %>
 
     <%= yield %>
 
