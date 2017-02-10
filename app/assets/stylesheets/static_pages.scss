@@ -195,7 +195,7 @@ h2 {
 	text-align: center;
 }
 
- .content-container h1 {
+.content-container h1 {
 	letter-spacing: 0em;
 	text-align: center;
 }
@@ -247,6 +247,35 @@ h2 {
 		padding-top: 40px;
 	}
 }
+
+/*Sign Up form*/
+.field .col-md-8 {
+	font-family:"Roboto", Open Sans, Arial;
+	margin-left: 31%;
+	
+}
+
+.signup-form-control {
+	width: 50%;
+	padding: 6px 12px;
+	font-size: 10px;
+	font-family:"Roboto", Open Sans, Arial;
+}
+
+
+@media  (max-width: 700px) {
+	.signup-form-control {
+		width: 75%;
+	}
+}
+
+@media  (max-width: 700px) {
+	.field .col-md-8 {
+		margin-left: 0%;
+	}
+}
+
+
 /*Form submit response page*/
 
 .panel-body p {
@@ -306,6 +335,11 @@ h2 {
 
 /*Login Page*/
 #loginpage {
+	text-align: center;
+}
+
+/*Authentication Form */
+.signform {
 	text-align: center;
 }
 
