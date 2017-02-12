@@ -1,7 +1,6 @@
 class ProductsController < ApplicationController
-  before_action :authenticate_user!, :except => [:show, :index]
   before_action :set_product, only: [:show, :edit, :update, :destroy]
-  #load_and_authorize_resource
+  before_filter :authenticate_user!, :except => [:index, :show]
 
    def index
     if params[:q]
