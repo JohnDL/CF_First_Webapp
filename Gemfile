@@ -60,4 +60,7 @@ gem 'devise'
 #Provides authorization for Rails
 gem 'cancancan', '~> 1.10'
 
+#email gem 
+gem 'sendgrid'
+
 ruby "2.3.0"
