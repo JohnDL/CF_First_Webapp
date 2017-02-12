@@ -1,11 +1,11 @@
 class UserMailer < ApplicationMailer
 
-	default from: "info@garmischgear.com"
+	default from: "jmann25@gmail.com"
 
   def contact_form(email, name, message)
   @message = message
   @name = name
-    mail(:from => 'info@garmischgear.com',
+    mail(:from => 'jmann25@gmail.com',
         :to => 'jmann25@gmail.com',
         :subject => "A new contact form message from #{name}")
   end
