@@ -55,12 +55,15 @@ group :production do
   gem 'pg'
 end
 #Provides authentification functions for Rails
-gem 'devise'
+  gem 'devise'
 
 #Provides authorization for Rails
-gem 'cancancan', '~> 1.10'
+  gem 'cancancan', '~> 1.10'
 
 #email gem 
-gem 'sendgrid'
+  gem 'sendgrid'
 
 ruby "2.3.0"
+
+
+
