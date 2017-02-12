@@ -88,7 +88,7 @@ Rails.application.configure do
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = false
   config.action_mailer.default :charset => "utf-8"
-  config.action_mailer.default_url_options = { :host => 'http://myapp.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'http://garmischgear.herokuapp.com' }
 
 
   # Allows ActionMailer to use the Sendgrid plugin to send out emails from Heroku
