@@ -57,4 +57,7 @@ end
 #Provides authentification functions for Rails
 gem 'devise'
 
+#Provides authorization for Rails
+gem 'cancancan', '~> 1.10'
+
 ruby "2.3.0"
