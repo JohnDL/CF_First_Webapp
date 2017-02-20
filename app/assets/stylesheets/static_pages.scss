@@ -111,6 +111,15 @@ h2 {
 	color: #1c1c1c;
 }
 
+/*Carousel Styling */
+
+.carousel-control.left, .carousel-control.right {
+  filter:none !important;
+  background-image:none;
+  outline: 0;
+  opacity: 0.1;
+ }
+ 
 /*Product Page*/
 
 #productheader {
@@ -128,6 +137,35 @@ h2 {
 	margin-left: 0;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+/*Show Procucts Page*/
+/*removes border line around image*/
+.row .thumbnail {
+	border: 1px;
+}
+
+.btn-primary {
+	background-color: #ffc423;
+	border-color: #000;
+	color: black;
+	text-transform: uppercase;
+	font-family: "Roboto", Open Sans, Arial;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.btn-primary a:visited {
+	color: #000;
+	font-family: "Roboto", Open Sans, Arial;
+	font-size: 12px;
+}
+
+.btn-primary a:hover, .btn-primary:focus {
+	color: #000;
+	background-color: #2e6da4;
+	text-decoration: none;
+	
 }
 
 /*Garmisch Gear Page*/
