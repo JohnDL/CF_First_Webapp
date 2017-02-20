@@ -24,10 +24,14 @@
   			<strong>Price:</strong>
   			<%= @product.price %>
 			</p>
-		<div>
-			<%= @product.highest_rating_comment %>
-			<%= @product.lowest_rating_comment %>
-		</div>	
+			
+	 </div>
+	 		<% if @product.comments.present? %>
+	    <% else %>
+			<%= @product.highest_rating_comment.body %>
+			<%= @product.lowest_rating_comment.body %>
+				
+		</div>
 			
 			<span class="btn btn-primary" role="button"><%= link_to 'Edit', edit_product_path(@product) %></span>
 			<span class="btn btn-primary" role="button"><%= link_to 'Back', products_path %></span>
