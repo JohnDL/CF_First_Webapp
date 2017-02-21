@@ -26,7 +26,6 @@ class CommentsController < ApplicationController
 
 	#private actions
 	private
-
 	#action that allows users to update comment and rating attributes
   	def comment_params
     	params.require(:comment).permit(:user_id, :body, :rating)

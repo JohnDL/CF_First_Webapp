@@ -26,14 +26,15 @@
 			</p>
 			
 	 </div>
-	 		<% if @product.comments.present? %>
+	 	<span class="btn btn-primary" role="button"><%= link_to 'Edit', edit_product_path(@product) %></span>
+		<span class="btn btn-primary" role="button"><%= link_to 'Back', products_path %></span>
+	</div>
+			
+			<% if @product.comments.present? %>
 			<%= @product.highest_rating_comment.body %>
 			<%= @product.lowest_rating_comment.body %>
 			<% end %>
-		</div>
-			
-			<span class="btn btn-primary" role="button"><%= link_to 'Edit', edit_product_path(@product) %></span>
-			<span class="btn btn-primary" role="button"><%= link_to 'Back', products_path %></span>
-   </div>
-   </div>
+ </div>
+ 
+   
  
