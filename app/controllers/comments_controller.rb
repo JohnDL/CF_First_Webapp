@@ -1,4 +1,5 @@
 class CommentsController < ApplicationController
+	load_and_authorize_resource
   
   #action to create a new comment
 	def create
